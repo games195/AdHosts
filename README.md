@@ -1,6 +1,6 @@
 # AdHosts
 
-AdHosts is a script in python to retrieve ad-hosts lists from various sources and merge its in one file updated every day!
+AdHosts is a python script to retrieve ad-hosts lists from various sources and merge its in one file updated every day!
 
 [`hosts.txt`](https://games195.github.io/AdHosts/hosts.txt) contains various server of adware, malware, crypto miner, gambling, fakenews and mobile ad.
 ## Usage
