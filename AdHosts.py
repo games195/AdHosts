@@ -13,7 +13,7 @@ Sources = [
 	'https://raw.githubusercontent.com/AdroitAdorKhan/Energized/master/EnergizedHosts/EnergizedHosts',
 	'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts',
 	'https://gist.githubusercontent.com/games195/4dced15b925a4cc28e40285b0c05ac31/raw/hosts.txt',
-	'https://raw.githubusercontent.com/AdroitAdorKhan/Energized/master/Hosts/Energized',
+	'https://raw.githubusercontent.com/EnergizedProtection/EnergizedHosts/master/EnergizedAd/energized/hosts',
 	'https://raw.githubusercontent.com/biroloter/Mobile-Ad-Hosts/master/hosts'
 ]
 
