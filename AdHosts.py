@@ -10,7 +10,7 @@ File = 'host/hosts.txt'
 List = []
 # Thanks to all maintainers of hosts lists.
 Sources = [
-	'https://raw.githubusercontent.com/EnergizedProtection/EnergizedHosts/master/EnergizedAd/energized/hosts',
+	# 'https://raw.githubusercontent.com/EnergizedProtection/EnergizedHosts/master/EnergizedAd/energized/hosts',
 	'https://raw.githubusercontent.com/AdroitAdorKhan/Energized/master/EnergizedHosts/EnergizedHosts',
 	'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts',
 	'https://gist.githubusercontent.com/games195/4dced15b925a4cc28e40285b0c05ac31/raw/hosts.txt',
@@ -44,7 +44,10 @@ Whitelist = [z for z in Whitelist if z != '' and z[0] != '#']
 r.close()
 
 for i in range(0, len(Whitelist)):
-	List.remove(Whitelist[i])
+	try:
+		List.remove(Whitelist[i])
+	except:
+		pass
 
 print('[+] Total domains count {}.'.format(str(len(List))))
 
